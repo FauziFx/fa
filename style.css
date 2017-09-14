@@ -1,0 +1,297 @@
+*{
+	margin: 0; padding: 0;
+	font-family: sans-serif; font-weight: normal;
+	max-width: 100% !important;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clear{
+	clear: both;
+}
+
+#logo{
+	margin-top: 15px;
+}
+
+.judul{
+	text-align: center;
+	width: 300px;
+	background: #0074b9;
+	font-size: 30px;
+	padding: 15px; margin: 0 auto;
+}
+
+.konten{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+/*========= Kolom =========*/
+
+.kolom4{
+	width: 25%; float: left;
+	text-align: center;
+	display: block
+}
+
+.kolom4:hover{
+	background: #339ddc;
+}
+
+.kolom3{
+	width: 32%; float: left;
+	text-align: center;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.kolom3-tengah{
+	margin: 0 2%;
+}
+
+.kolom2{
+	width: 47%; float: left;
+	text-align: center;
+	display: block;
+	margin: 0 1%;
+}
+
+/*=========================*/
+/*========== Menu =========*/
+/*=========================*/
+
+#menu{
+	background: #0074b9;
+	height: 50px; line-height: 50px;
+	font-size: 20px; margin-top: 20px;
+}
+
+#menu-text{
+	display: none;
+	color: white;
+	padding-left: 10px;
+}
+
+#nav-icon{
+	display: none;
+}
+
+/*=========================*/
+/*========= Hallo =========*/
+/*=========================*/
+
+#hallo{
+	background: url('img/1.jpg') no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+}
+
+#box-hallo{
+	background: rgba(0, 116, 185, 0.7);
+	font-size: 30px; text-align: center;
+	margin: 80px 0; padding: 20px 0;
+}
+
+#box-hallo a{
+	display: block;
+	border: 2px solid white;
+	padding: 5px 0;
+	width: 300px;
+	margin: 25px auto 0 auto;
+}
+
+#box-hallo a:hover{
+	background: #339ddc;
+}
+
+/*=========================*/
+/*========= Karya =========*/
+/*=========================*/
+
+#karya{
+	height: 100vh;
+	background-image: url('img/pattern.png');
+	background-repeat: repeat;
+	padding-top: 30px;
+}
+
+#karya .konten{
+	padding-top: 50px;
+}
+
+.karya {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #0074b9;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+}
+
+.karya .karya-image {
+    position: relative;
+}
+
+.karya .karya-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.karya .karya-image .karya-title {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+.karya .karya-title {
+    font-size: 24px;
+    font-weight: 300;
+    display: none;
+    background: rgba(255,255,255,0.4);
+    width: 100%;
+    text-align: left;
+}
+
+.karya .karya-content {
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+    text-align: left;
+}
+
+.karya .karya-action {
+    position: relative;
+    background-color: inherit;
+    border-top: 2px solid rgba(160,160,160,0.3);
+    padding: 20px;
+}
+
+.karya .karya-image:hover .karya-title{
+	display: block;
+}
+
+/*=========================*/
+/*========= Profil ========*/
+/*=========================*/
+
+#profil{
+	height: 100vh;
+	background: #0074b9;
+	padding-top: 30px;
+}
+
+#profil .judul{
+	border: 2px solid white;
+	margin-bottom: 30px;
+}
+
+
+#profil img{
+	border-radius: 50%;
+}
+
+/*=========================*/
+/*========= Kontak ========*/
+/*=========================*/
+
+#kontak{
+	height: 87vh;
+	padding-top: 30px;
+}
+
+#kontak .konten{
+	padding-top: 30px;
+}
+
+#kontak .kolom2{
+	border: 2px solid #0074b9;
+	height: 400px;
+}
+
+/* == Footer == */
+.footer{
+	background: #0074b9;
+	text-align: center;
+	color: #fff;
+	padding:20px 25px;
+}
+
+/*=========================*/
+/*======= Responsive ======*/
+/*=========================*/
+
+@media only screen and (max-width: 1024px){
+	
+	#box-hallo{
+		font-size: 24px;
+	}
+
+}
+
+@media only screen and (max-width: 480px){
+
+	.kolom4{
+		width: 90%;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#box-hallo{
+		font-size: 14px;
+		margin: 20px 0;
+	}
+
+	#hallo{
+		height: auto;
+		padding-bottom: 5px;
+		background-attachment: fixed;
+	}
+	
+	#nav-icon{
+		display: block;
+		position: absolute;
+		top: 9px;
+		right: 10px;
+	}
+
+	/*== Nav menu ==*/
+
+	#menu-nav{
+		max-height: 0;
+		overflow: hidden;
+	}
+
+	#menu-text{
+		display: block;
+	}
+
+	.menu-open{
+		max-height: 100% !important;
+	}
+
+	#menu{
+		height: auto;
+		font-size: 15px;
+		position: relative;
+	}
+
+	#menu a{
+		border-bottom: 1px solid white;
+	}
+
+
+}
