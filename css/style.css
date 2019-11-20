@@ -1,0 +1,117 @@
+.navbar{
+  margin-bottom: 0;
+}
+
+#home{
+  background: url("../img/eyeglass.jpg");
+  background-position: center bottom;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  padding: 13% 0;
+  color: white;
+}
+
+#home h1{
+  margin: 0;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#home p{
+  font-size: 24px;
+}
+
+#servis{
+  height: 90vh;
+  padding: 60px 5%;
+  text-align: center;
+  background: url("../img/bg.png");
+}
+
+#servis .row{
+  padding: 0 10%;
+}
+
+#servis h1{
+  margin: 0 0 20px 0;
+}
+
+#about{
+  height: 90vh;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.9724264705882353) 0%, rgba(49,49,50,1) 45%, rgba(76,76,77,1) 72%, rgba(111,111,111,1) 100%);
+  color: white;
+  padding: 60px 5%;
+}
+
+#about h1{
+  margin: 0 0 60px 0;
+}
+
+#about img{
+  border-radius: 50%;
+  height: 30vh;
+  /*margin-left: 10%;*/
+}
+
+#article{
+  padding: 60px 50px;
+  background:#ecf8fb;
+}
+
+#article .card-img{
+  padding:60px;
+}
+
+#gallery{
+  height: 110vh;
+  padding-top: 80px;
+  background:#eceeef;
+}
+
+#gallery h1{
+  margin: 0 0 20px 0;
+}
+
+#beli{
+  height: 100%;
+  padding: 30px 5%;
+   background: url("../img/patern.jpg");
+}
+@media only screen and (max-width: 768px) {
+  #home h1{
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  #home p{
+    font-size: 18px;
+  }
+
+  #servis{
+    background-repeat: repeat;
+    height: 100%;
+  }
+
+  #about{
+    height: 100%;
+  }
+
+  #article{
+    padding: 60px 20px;
+  }
+
+  #gallery{
+    height: 100%
+  }
+  
+  #beli{
+    height: 100%;
+  }
+}
+
+footer{
+  height: 60px;
+  padding-top: 23px;
+}
